@@ -1,45 +1,45 @@
 {
-    "name":"SESOnRequest",
-    "version":"1.0.0",
-    "author":"Eric Peterson",
-    "location":"https://github.com/elpete/SESOnRequest/archive/master.zip",
-    "homepage":"https://github.com/elpete/SESOnRequest",
-    "documentation":"https://github.com/elpete/SESOnRequest",
-    "repository":{
-        "type":"git",
-        "URL":"https://github.com/elpete/SESOnRequest"
+    "name": "SESOnRequest",
+    "version": "1.0.0",
+    "author": "Eric Peterson",
+    "location": "https://github.com/elpete/SESOnRequest/archive/master.zip",
+    "homepage": "https://github.com/elpete/SESOnRequest",
+    "documentation": "https://github.com/elpete/SESOnRequest",
+    "repository": {
+        "type": "git",
+        "URL": "https://github.com/elpete/SESOnRequest"
     },
-    "bugs":"https://github.com/elpete/SESOnRequest/issues",
-    "slug":"ses-on-request",
-    "shortDescription":"Sets the SES and HTML base url on each request.",
-    "changelog":"https://github.com/elpete/SESOnRequest",
-    "type":"interceptors",
+    "bugs": "https://github.com/elpete/SESOnRequest/issues",
+    "slug": "ses-on-request",
+    "shortDescription": "Sets the SES and HTML base url on each request.",
+    "changelog": "https://github.com/elpete/SESOnRequest",
+    "type": "modules",
     "keywords": [
         "ses",
         "url"
     ],
-    "private":false,
-    "engines":[
+    "private": false,
+    "engines": [
         {
-            "type":"lucee",
-            "version":">=4.5.x"
+            "type": "lucee",
+            "version": ">=4.5.x"
         },
         {
-            "type":"railo",
-            "version":">=4.1.x"
+            "type": "railo",
+            "version": ">=4.1.x"
         },
         {
-            "type":"adobe",
-            "version":">=10.0.0"
+            "type": "adobe",
+            "version": ">=10.0.0"
         }
     ],
-    "license":[
+    "license": [
         {
             "type": "MIT",
             "URL": "https://github.com/elpete/relative-path-converter/blob/master/LICENSE"
         }
     ],
-    "ignore":[
+    "ignore": [
         "**/.*",
         "test",
         "tests"
