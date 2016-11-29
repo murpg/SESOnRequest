@@ -19,8 +19,8 @@ The interceptor can be configured to include `index.cfm` in the URL which is req
 
 ```
 moduleSettings = {
-  'SESOnRequest' : {
-    includeIndex=true
+  "SESOnRequest" = {
+    includeIndex = true
   }
 };
 ```
