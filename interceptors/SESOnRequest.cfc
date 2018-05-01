@@ -4,7 +4,7 @@ component extends="coldbox.system.Interceptor" {
     
     public void function preProcess( event, interceptData ) {
         var appMapping = getSetting( "AppMapping" );
-        var SESBaseURL = event.isSSL() ? "https://" : "http://";
+        var SESBaseURL = "https://";
         SESBaseURL &= CGI.http_host;
         if( len( appMapping ) ) {
             SESBaseURL &= "/" & appMapping;         
